@@ -1,0 +1,39 @@
+{
+  "requests": [
+    {
+      "name": "Dashboard View",
+      "type": "TENSOR",
+      "data_type": "FLOAT",
+      "shape": [32, 32, 3]
+    },
+    {
+      "name": "Rear View",
+      "type": "TENSOR",
+      "data_type": "FLOAT",
+      "shape": [32, 32, 3]
+    }
+  ],
+  "responses": [
+    {
+      "name": "Light Mode",
+      "type": "CATEGORICAL",
+      "data_type": "INT",
+      "n_categories": 3,
+      "category_map": {
+        "0": "off",
+        "1": "low_beam",
+        "2": "high_beam"
+      }
+    },
+    {
+      "name": "velocity",
+      "type": "REAL",
+      "data_type": "FLOAT"
+    },
+    {
+      "name": "steering_angle",
+      "type": "REAL",
+      "data_type": "FLOAT"
+    }
+  ]
+}

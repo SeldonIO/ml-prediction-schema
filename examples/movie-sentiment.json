@@ -1,0 +1,23 @@
+{
+  "requests": [
+    {
+      "name": "Review Comment",
+      "type": "TEXT"
+    }
+  ],
+  "responses": [
+    {
+      "name": "Sentiment",
+      "type": "ONE_HOT",
+      "data_type": "INT",
+      "schema": [
+        {
+          "name": "Positive"
+        },
+        {
+          "name": "Negetive"
+        }
+      ]
+    }
+  ]
+}
