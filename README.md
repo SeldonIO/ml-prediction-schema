@@ -150,6 +150,9 @@ The proposed prediction schema as a model level metadata can have a multitude of
 
 The essence of model monitoring is continously watching the prediction data distributions in production at every feature/target level. Hence, it is vital to understand the schematics of model prediction payload from a feature perspective to create appropriate monitoring visualizations and workflows. Utilizing the proposed schema definition will help standardization across model prediction, logging and other external monitoring systems.
 
+The following image demostrates the metadata required for such usecase in an example model prediction.
+![ml-schema-iris-example](./assets/ml-schema-iris-example.png)
+
 The additional metadata that cannot be auto-generated from the model artifact as mentioned above is absolutely imperative for many monitoring applications like plotting distributions of model features from live prediction data. Here, the difference between a `REAL` feature value and `PROBA` category value is not apparent from just the prediction payload and the prediction schema proposed in this document solves that complexity.
 
 ## What this document is not proposing?
