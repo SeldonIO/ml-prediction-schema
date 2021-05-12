@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/badge/Version-0.0.1-green.svg)
+![GitHub](https://img.shields.io/badge/License-Apache-black.svg)
+
 # ML Prediction Schema
 
 ### Introduction
