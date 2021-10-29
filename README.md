@@ -22,7 +22,6 @@ This schema supports six major feature types that covers most machine learning a
 | TEXT         | Text feature type refers to a string type input or output feature                                                            |
 | TENSOR       | Tensors are a single or multidimensional feature inputs or outputs with a fixed tensor shape                                 |
 
-
 ![ml-prediction-schema](./assets/ml-prediction-schema.png)
 
 ---
@@ -139,7 +138,7 @@ The `TENSOR` feature type are N-dimensional feature inputs or outputs. For this 
 
 ---
 
-Find more examples of the full prediction schema in the [examples folder](./examples). We have also defined a generic [protobuf definition](./proto/prediction_schema.proto) validate any such prediction schema.
+Find more examples of the full prediction schema in the [examples folder](./examples). We have also defined a generic [protobuf definition](./proto/v1/prediction_schema.proto) validate any such prediction schema.
 
 ## Can this data be auto-generated?
 
